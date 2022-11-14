@@ -26,7 +26,7 @@ provider:
   environment:
     PROJECT_NAME: serveless-todo-app
     TODOS_TABLE: todo-serverless-${self:provider.stage}
-    S3_BUCKET_NAME: todo-serverless-${self:provider.stage}
+    S3_BUCKET_NAME: owoh-todo-serverless-${self:provider.stage}
 
   logs:
    # Enable API Gateway logs
